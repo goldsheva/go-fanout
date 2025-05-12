@@ -18,6 +18,7 @@ A simple HTTP request relay to multiple endpoints.
     
     [Service]
     Type=simple
+    WorkingDirectory=/path-to-binary-app
     ExecStart=/path-to-binary-app/app
     Restart=always
     RestartSec=5
